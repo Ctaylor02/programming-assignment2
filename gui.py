@@ -6,7 +6,7 @@ from ftp_client import FTPClient
 
 
 class LoginDialog(simpledialog.Dialog):
-    """entering username and password."""
+    """username and password."""
 
     def body(self, master):
         tk.Label(master, text="Username:").grid(row=0, column=0, sticky="e", padx=5, pady=5)

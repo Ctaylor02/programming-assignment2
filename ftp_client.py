@@ -19,7 +19,7 @@ class FTPClient:
             self.output_callback = callback
 
     def _log(self, message: str):
-        """Helper to send messages to the configured output callback."""
+        """send messages to the configured output callback."""
         try:
             self.output_callback(message)
         except Exception:
