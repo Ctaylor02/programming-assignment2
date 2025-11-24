@@ -1,0 +1,37 @@
+This directory contains programs (or pointers thereto) that are part
+of the GNU system, as well as GNU Manuals, and general information on
+project GNU.
+
+Programs that are directly in this directory are actually GNU
+programs, developed under the auspices of GNU.
+
+We do, however, distribute some non-GNU programs through our FTP
+server, or provide pointers to where they are.  We put these
+programs/pointers in the subdirectory non-gnu since they are not
+developed by the GNU project. They are, of course, part of the GNU
+system. See:
+http://www.gnu.org/philosophy/categories.html#TheGNUsystem
+
+Older versions of some GNU programs are archived in the directory
+old-gnu on ftp.gnu.org (probably not mirrored on our mirror sites).
+
+Software programs are placed here in one of the following formats:
+
+program.README	A README file that is just a pointer describing where
+		to get that program and briefly describing the function of
+		the program.
+
+program/	A directory containing full distributions of that program.
+
+There are other files here as well:
+
+Manuals/	A directory containing our GNU manuals in various formats.
+
+GNUinfo/	A directory containing information on the GNU project,
+		including our task list and coding standards.
+
+non-gnu/	We distribute some non-GNU programs through our FTP server, or
+		provide pointers to where they are.  We put these
+		programs/pointers in this directory since they are not
+		developed by the GNU project. They are, of course, part of
+		the GNU system. 
